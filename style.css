@@ -1,0 +1,11 @@
+#nav-bar {
+    padding-right: 3rem;
+}
+
+#nav-bar-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+}
+
