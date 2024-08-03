@@ -9,3 +9,15 @@
     text-align: center;
 }
 
+#bio-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bio-header {
+    font-size: 3rem;
+}
+
+#bio-body {
+    font-size: 1.25rem;
+}
