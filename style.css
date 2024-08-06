@@ -1,3 +1,7 @@
+body {
+    background-color: #0b192f;
+}
+
 #navbar-container {
     display: flex;
     justify-content: space-between;
@@ -12,17 +16,17 @@
 #navbar-list li {
     margin-right: 1.2rem;
     font-size: .9rem;
-    color: black;
+    color: #b0b4bd;
 }
 
 #space-span{
     margin-right: .4rem;
-    color: grey;
+    color: #40a394;
 }
 
 #resume-button {
-    border: 2px solid gray;
-    background-color: white;
+    border: 2px solid #40a394;
+    background: none;
     height: 2.2rem;
-    color: gray;
+    color: 40a394;
 }
