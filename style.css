@@ -30,3 +30,35 @@ body {
     height: 2.2rem;
     color: 40a394;
 }
+
+#body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 20vw;
+}
+
+#green-text {
+    color: #40a394;
+}
+
+#body-header {
+    color: #b0b4bd;
+    font-size: 3rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#grey-body-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #b0b4bdaa;
+    font-size: 3rem;
+}
+
+#body-text {
+    color: #b0b4bd62;
+    font-size: 1.1rem;
+    width: 25rem;
+    line-height: 1.3rem;
+}
