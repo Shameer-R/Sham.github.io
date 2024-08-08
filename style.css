@@ -1,30 +1,81 @@
-#nav-bar {
-    padding-right: 3rem;
-    padding-bottom: 2.5rem;
+body {
+    background-color: #0b192f;
 }
 
-#nav-bar-list {
+#navbar-container {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
-    text-align: center;
-    font-size: 1.2rem;
+    margin-bottom: 3rem;
 }
 
-#bio-container {
+#navbar-list{
     display: flex;
-    justify-content: center;
-    gap: 5rem;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
-#bio-header {
-    font-size: 3rem;
+#navbar-list li {
+    margin-right: 1.2rem;
+    font-size: .9rem;
+    color: #b0b4bd;
 }
 
-#bio-body {
-    font-size: 1.25rem;
+#space-span{
+    margin-right: .4rem;
+    color: #40a394;
 }
 
-#bio-photo>img {
+#resume-button {
+    border: 2px solid #40a394;
+    background: none;
+    height: 2.2rem;
+    color: 40a394;
+}
+
+#body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 20vw;
+}
+
+#green-text {
+    color: #40a394;
+    font-size: 1.1rem;
+}
+
+#body-header {
+    color: #b0b4bd;
+    font-size: 4rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#grey-body-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #b0b4bdaa;
+    font-size: 4rem;
+}
+
+#body-text {
+    color: #b0b4bd6f;
+    font-size: 1.1rem;
+    width: 28rem;
+    line-height: 1.3rem;
+    text-align: justify;
+    padding-bottom: 1.5rem;
+}
+
+#github-link {
+    border: 2px solid #40a394;
+    background: none;
+    height: 2.2rem;
+    color: 40a394;
     width: 20rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
