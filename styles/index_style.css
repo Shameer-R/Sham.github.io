@@ -106,3 +106,13 @@ a {
 #about-list > li {
     margin-bottom: 1.5rem;
 }
+
+#about-container {
+    display: flex;
+    gap: 5rem;
+}
+
+#about-container > img {
+    height: 20rem;
+    border: 2px solid #3e7b72;
+}
