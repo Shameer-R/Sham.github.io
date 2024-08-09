@@ -118,7 +118,6 @@ a {
 }
 
 #experience-list {
-
     color: #40a394;
     font-size: 1.2rem;
     width: 40rem;
@@ -139,4 +138,8 @@ a {
 .experience-list-item>img {
     width: 6rem;
     height: 5rem;
+}
+
+.experience-list-item>p>a {
+    text-decoration: underline;
 }
