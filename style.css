@@ -5,18 +5,25 @@ body {
 #navbar-container {
     display: flex;
     justify-content: space-between;
+    align-items: top;
     margin-bottom: 3rem;
+    padding-top: 0rem;
 }
 
 #navbar-list{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    align-items: top;
+    padding-top: 0rem;
+    margin-top: 0rem;
 }
 
 #navbar-list li {
+    padding-top: 0rem;
+    margin-top: 0rem;
     margin-right: 1.2rem;
-    font-size: .9rem;
+    font-size: 1rem;
     color: #b0b4bd;
 }
 
@@ -26,10 +33,12 @@ body {
 }
 
 #resume-button {
+    margin-top: .3rem;
     border: 2px solid #40a394;
     background: none;
     height: 2.2rem;
     color: 40a394;
+    font-size: .8rem;
 }
 
 #body-container {
