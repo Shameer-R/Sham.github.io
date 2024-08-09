@@ -116,3 +116,27 @@ a {
     height: 20rem;
     border: 2px solid #3e7b72;
 }
+
+#experience-list {
+
+    color: #40a394;
+    font-size: 1.2rem;
+    width: 40rem;
+    line-height: 1.3rem;
+    padding-left: 1rem;
+}
+
+#experience-list>li>div>p {
+    margin-top: 0rem;
+}
+
+.experience-list-item {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.experience-list-item>img {
+    width: 6rem;
+    height: 5rem;
+}
