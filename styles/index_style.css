@@ -93,3 +93,16 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+#about-list {
+    list-style-type: none;
+    color: #40a394;
+    font-size: 1.2rem;
+    width: 28rem;
+    line-height: 1.3rem;
+    padding-left: 1rem;
+}
+
+#about-list > li {
+    margin-bottom: 1.5rem;
+}
