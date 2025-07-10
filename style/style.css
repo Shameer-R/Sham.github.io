@@ -41,3 +41,7 @@ body {
 .lp-right-hero-container > img {
     width: 25vw;
 }
+
+.emoji {
+    font-size: 1.25rem;
+}
