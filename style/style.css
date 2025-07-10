@@ -1,6 +1,11 @@
 * {
     padding: 0rem;
     margin: 0rem;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
@@ -9,12 +14,50 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.page-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.navbar-container > img {
+    width: 5vw;
+}
+
+.navbar-items {
+    display: flex;
+    gap: 3rem;
+    font-weight: 200;
+}
+
+.navbar-items>p>a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s ease;
+
+}
+
+.navbar-items>p>a:hover {
+    color: #04ffba;
+    transition: 0.3s ease;
+    text-decoration: underline;
+    font-size: 1.01rem;
+}
+
+
 .landing-page-hero-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15vw;
-    height: 100%;
+    flex-grow: 1;
 }
 
 .lp-left-hero-container {
@@ -36,10 +79,20 @@ body {
     height: 5vh;
     width: 9.5vw;
     font-size: 1rem;
+    transition: 0.3s ease;
 }
+
+.lp-left-hero-container > button:hover {
+    height: 5.2vh;
+    width: 9.7vw;
+    transition: 0.3s ease;
+}
+
 
 .lp-right-hero-container > img {
     width: 25vw;
+    max-height: 80vh;
+    object-fit: contain;
 }
 
 .emoji {
