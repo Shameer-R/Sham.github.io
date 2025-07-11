@@ -174,3 +174,32 @@ body {
     color: #04FFBA;
     transition: ease 0.3s;
 }
+
+.my-work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-list {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.filter-list > button {
+    cursor: pointer;
+    background-color: #212121;
+    border: 3px solid #04FFBA;
+    border-radius: .25rem;
+    color: #ffffff;
+    width: 8vw;
+    height: 5vh;
+    font-weight: 500;
+    transition: 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.filter-list > button:hover {
+    background-color: #204f43;
+}
