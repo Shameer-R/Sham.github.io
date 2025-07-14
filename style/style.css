@@ -206,7 +206,7 @@ body {
 }
 
 .hidden { 
-    display: none;
+    display: none !important;
 }
 
 .roblox-card-container {
