@@ -188,7 +188,7 @@ body {
     padding-bottom: 4rem;
 }
 
-.filter-list > button {
+.filter-list > a {
     cursor: pointer;
     background-color: #212121;
     border: 3px solid #04FFBA;
@@ -199,9 +199,11 @@ body {
     font-weight: 500;
     transition: 0.3s ease;
     font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
 }
 
-.filter-list > button:hover {
+.filter-list > a:hover {
     background-color: #204f43;
 }
 
