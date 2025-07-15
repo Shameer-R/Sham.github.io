@@ -1,325 +1,349 @@
 * {
-    padding: 0rem;
-    margin: 0rem;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-}
-
-body {
-    background-color: #212121;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
+	height: 100%;
+	background-color: #212121;
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
 }
 
 .page-wrapper {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
+/* === Navbar === */
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem;
 }
 
 .navbar-container > img {
-    width: 5vw;
+	width: 5vw;
 }
 
 .navbar-items {
-    display: flex;
-    gap: 3rem;
-    font-weight: 200;
+	display: flex;
+	gap: 3rem;
+	font-weight: 200;
 }
 
-.navbar-items>p>a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: 0.3s ease;
-
+.navbar-items > p > a {
+	color: #ffffff;
+	text-decoration: none;
+	transition: 0.3s ease;
 }
 
-.navbar-items>p>a:hover {
-    color: #04ffba;
-    transition: 0.3s ease;
-    text-decoration: underline;
-    font-size: 1.01rem;
+.navbar-items > p > a:hover {
+	color: #04ffba;
+	text-decoration: underline;
+	font-size: 1.01rem;
 }
 
-
+/* === Hero Section === */
 .landing-page-hero-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15vw;
-    flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15vw;
+	flex-grow: 1;
+	padding: 2rem 1rem;
 }
 
 .lp-left-hero-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
 }
 
 .lp-left-hero-container > h2 {
-    font-size: 4rem;
+	font-size: 4rem;
 }
 
 .lp-left-hero-container > button {
-    background-color: #04ffba;
-    outline: none;
-    border: none;
-    border-radius: 1rem;
-    height: 5vh;
-    width: 9.5vw;
-    font-size: 1rem;
-    transition: 0.3s ease;
+	background-color: #04ffba;
+	border: none;
+	border-radius: 1rem;
+	height: 5vh;
+	width: 9.5vw;
+	font-size: 1rem;
+	transition: 0.3s ease;
 }
 
 .lp-left-hero-container > button:hover {
-    height: 5.2vh;
-    width: 9.7vw;
-    transition: 0.3s ease;
+	height: 5.2vh;
+	width: 9.7vw;
 }
 
-
 .lp-right-hero-container > img {
-    width: 25vw;
-    max-height: 80vh;
-    object-fit: contain;
+	width: 25vw;
+	max-height: 80vh;
+	object-fit: contain;
 }
 
 .emoji {
-    font-size: 1.25rem;
+	font-size: 1.25rem;
 }
 
 .highlight-text {
-    color: #04ffba;
+	color: #04ffba;
 }
 
+/* === About Section === */
 .about-me-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 1rem;
 }
 
 .story-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    gap: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem 0;
+	gap: 4rem;
 }
 
-.story-container>p {
-    width: 40vw;
+.story-container > p,
+.story-container > img {
+	width: 40vw;
 }
 
-.story-container>img {
-    width: 40vw;
-}
-
+/* === Skills Section === */
 .skills-container {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 3rem;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 3rem;
 }
 
 .skill-card-container {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
+	display: flex;
+	flex-direction: row;
+	gap: 3rem;
 }
 
 .skill-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-color: #2a2a2a;
-    border: solid 2px #04FFBA;
-    border-radius: .5rem;
-    width: 20vw;
-    height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #2a2a2a;
+	border: 2px solid #04FFBA;
+	border-radius: 0.5rem;
+	width: 20vw;
+	height: 30vh;
 }
 
 .skill-card > h3 {
-    padding-bottom: 0.5rem;
-    text-decoration: underline;
+	padding-bottom: 0.5rem;
+	text-decoration: underline;
 }
 
 .skill-card > ul {
-    padding: 2rem;
+	padding: 2rem;
 }
 
-.skill-card>ul>li {
-    display: inline;
-    list-style-type: none;
-    transition: ease 0.3s;
-    cursor: default;
+.skill-card > ul > li {
+	display: inline;
+	list-style-type: none;
+	cursor: default;
+	transition: color 0.3s ease;
 }
 
-.skill-card>ul>li:hover {
-    color: #04FFBA;
-    transition: ease 0.3s;
+.skill-card > ul > li:hover {
+	color: #04FFBA;
 }
 
+/* === Work Section === */
 .my-work-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 1rem;
 }
 
 .filter-list {
-    display: flex;
-    gap: 2.5rem;
-    padding-bottom: 4rem;
+	display: flex;
+	gap: 2.5rem;
+	padding-bottom: 4rem;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .filter-list > a {
-    cursor: pointer;
-    background-color: #212121;
-    border: 3px solid #04FFBA;
-    border-radius: .25rem;
-    color: #ffffff;
-    width: 8vw;
-    height: 5vh;
-    font-weight: 500;
-    transition: 0.3s ease;
-    font-size: 1.2rem;
-    text-align: center;
-    text-decoration: none;
+	cursor: pointer;
+	background-color: #212121;
+	border: 3px solid #04FFBA;
+	border-radius: 0.25rem;
+	color: #ffffff;
+	width: 8vw;
+	height: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+	transition: 0.3s ease;
+	font-size: 1.2rem;
+	text-align: center;
+	text-decoration: none;
 }
 
 .filter-list > a:hover {
-    background-color: #204f43;
+	background-color: #204f43;
 }
 
-.hidden { 
-    display: none !important;
+.hidden {
+	display: none !important;
 }
 
-.roblox-card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-color: #2a2a2a;
-    border: solid 2px #04FFBA;
-    border-radius: .5rem;
-    width: 35vw;
-    height: 40vh;
+/* === Cards === */
+.roblox-card-container,
+.java-card-container,
+.python-card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 2rem 0;
+	width: 100%;
 }
 
-.roblox-card {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Ensures spacing between h3 and image */
-    background-color: #2a2a2a;
-    border-radius: .5rem;
+.roblox-card,
+.java-card,
+.python-card {
+	background-color: #2a2a2a;
+	border: 2px solid #04FFBA;
+	border-radius: 0.5rem;
+	width: 35vw;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 1rem;
 }
 
-
-.roblox-card > h3 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.roblox-card > h3,
+.python-card > h3,
+.java-card > h3 {
+	padding: 1rem 0;
 }
 
 .image-wrapper {
-    width: 100%;
-    height: 100%; /* adjust as needed */
-    overflow: hidden;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
-    align-self: center;
-    padding: 1rem;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	align-self: center;
+	padding: 1rem;
 }
 
 .image-wrapper img {
-    width: 80%;
-    height: 100%;
-    object-fit: cover;
+	width: 80%;
+	height: 100%;
+	object-fit: cover;
 }
 
+/* === Responsive (Mobile) === */
 @media (max-width: 768px) {
-    .navbar-container {
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-    }
+	.navbar-container {
+		flex-direction: column;
+		gap: 1rem;
+		text-align: center;
+	}
 
-    .navbar-items {
-        flex-direction: column;
-        gap: 1rem;
-    }
+	.navbar-items {
+		flex-direction: column;
+		gap: 1rem;
+	}
 
-    .filter-list {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
+	.filter-list {
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
 
-    .filter-list > a {
-        width: 80%;
-        font-size: 1rem;
-    }
+	.filter-list > a {
+		width: 80%;
+		font-size: 1rem;
+		height: auto;
+		padding: 0.5rem 0;
+	}
 
-    .roblox-card-container,
+	.roblox-card-container,
     .java-card-container,
     .python-card-container {
-        width: 90vw;
-        height: auto;
-    }
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
 
-    .roblox-card {
-        height: auto;
-    }
+	.roblox-card,
+    .java-card,
+    .python-card {
+		width: 90vw;
+		height: auto;
+	}
 
-    .image-wrapper img {
-        width: 100%;
-        height: auto;
-    }
+	.image-wrapper {
+		width: 100%;
+		height: auto;
+		padding: 1rem;
+	}
 
-    .skill-card-container {
-        flex-direction: column;
-        align-items: center;
-    }
+	.image-wrapper img {
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+	}
 
-    .skill-card {
-        width: 80vw;
-        height: auto;
-    }
+	.skill-card-container {
+		flex-direction: column;
+		align-items: center;
+	}
 
-    .story-container {
-        flex-direction: column;
-        text-align: center;
-    }
+	.skill-card {
+		width: 90vw;
+		height: auto;
+	}
 
-    .story-container > p,
-    .story-container > img {
-        width: 90vw;
-    }
+	.story-container {
+		flex-direction: column;
+		text-align: center;
+		gap: 2rem;
+	}
 
-    .lp-left-hero-container > h2 {
-        font-size: 2.5rem;
-    }
+	.story-container > p,
+	.story-container > img {
+		width: 90vw;
+	}
 
-    .lp-left-hero-container > button {
-        width: 50vw;
-    }
+	.lp-left-hero-container > h2 {
+		font-size: 2.5rem;
+	}
+
+	.lp-left-hero-container > button {
+		width: 50vw;
+	}
+
+	.lp-right-hero-container > img {
+		width: 70vw;
+	}
 }
