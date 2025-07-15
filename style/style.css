@@ -255,3 +255,71 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .navbar-items {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .filter-list {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .filter-list > a {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .roblox-card-container,
+    .java-card-container,
+    .python-card-container {
+        width: 90vw;
+        height: auto;
+    }
+
+    .roblox-card {
+        height: auto;
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        height: auto;
+    }
+
+    .skill-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-card {
+        width: 80vw;
+        height: auto;
+    }
+
+    .story-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .story-container > p,
+    .story-container > img {
+        width: 90vw;
+    }
+
+    .lp-left-hero-container > h2 {
+        font-size: 2.5rem;
+    }
+
+    .lp-left-hero-container > button {
+        width: 50vw;
+    }
+}
