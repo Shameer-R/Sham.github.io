@@ -167,6 +167,14 @@ html, body {
 	color: #04FFBA;
 }
 
+.fun-fact-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	gap: 1rem;
+}
+
 /* === Work Section === */
 .my-work-container {
 	display: flex;
